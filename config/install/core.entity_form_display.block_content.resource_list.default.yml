@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.resource_list
+    - field.field.block_content.resource_list.field_resources
+  module:
+    - inline_entity_form
+id: block_content.resource_list.default
+targetEntityType: block_content
+bundle: resource_list
+mode: default
+content:
+  field_resources:
+    weight: 1
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: Resource
+      label_plural: Resources
+      allow_new: true
+      match_operator: CONTAINS
+      allow_existing: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+  info:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

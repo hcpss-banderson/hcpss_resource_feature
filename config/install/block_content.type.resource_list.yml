@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: resource_list
+label: 'Resource List'
+revision: 0
+description: 'A list of HCPSS applications and resources.'

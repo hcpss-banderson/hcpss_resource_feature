@@ -1,0 +1,17 @@
+name: 'Resource Feature'
+description: 'Resource content type, Resource List block type and Resources view.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - field
+  - inline_entity_form
+  - link
+  - menu_ui
+  - node
+  - system
+  - user
+  - views
+version: 8.x-1.0
+package: HCPSS

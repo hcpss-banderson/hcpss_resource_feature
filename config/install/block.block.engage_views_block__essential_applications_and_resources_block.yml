@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.essential_applications_and_resources
+  module:
+    - system
+    - views
+  theme:
+    - engage
+id: engage_views_block__essential_applications_and_resources_block
+theme: engage
+region: content
+weight: -3
+provider: null
+plugin: 'views_block:essential_applications_and_resources-block_1'
+settings:
+  id: 'views_block:essential_applications_and_resources-block_1'
+  label: 'Essential Applications & Resources'
+  provider: views
+  label_display: visible
+  views_label: 'Essential Applications & Resources'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

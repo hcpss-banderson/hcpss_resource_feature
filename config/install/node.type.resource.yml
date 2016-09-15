@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Resource
+type: resource
+description: 'A <em>Resource</em> is an reference to an HCPSS application or resource.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
